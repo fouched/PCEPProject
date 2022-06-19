@@ -5,4 +5,4 @@ occurs = {}
 for x in sentence.split():
     occurs[x] = sentence.count(x)
 
-print(f'Word count {occurs}')
+print(f'Word count:\n {occurs}')
