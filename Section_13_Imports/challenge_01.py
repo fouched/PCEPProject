@@ -1,4 +1,13 @@
+"""
+Rock, Paper, Scissors
+
+ROCK = 1
+PAPER = 2
+SCISSORS = 3
+"""
+
 import random
+
 
 def rock_paper_scissors():
     player_one = random.randint(1, 3)
@@ -30,5 +39,3 @@ def rock_paper_scissors():
 
 
 rock_paper_scissors()
-
-
